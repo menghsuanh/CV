@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    background-color:#FCFAF2;
+    margin: 0;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
+    font-size: 100%;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+div#banner {
+    width: inherit;
+    height: 200px;
+    background-image: url("https://tshop.r10s.com/0d7/307/f24d/c185/80d8/02a6/fd36/11f7e782fd2c600ce3781e.jpg");
+    position: fixed;
+    margin: 0;
+    text-align: center;
+    font-size: 140%;
+    box-shadow: 1px 1px 2px gray;
+}
+div#banner ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div#banner h2 {
+    margin-top: 10px;
+    float: inherit;
+    text-align: center;
+}
+.adjust-right {
+    margin-right: 10px;
+    float: right;
+}
+div#banner li {
+    display: inline;
+    font-size: 70%;
+}
+.clear {
+    clear: both;
+}
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+#nav li {
+    display: block;
+    background-color: #B19693;
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 2px gray;
+}
+#nav li:hover {
+    background-color: #A96360;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px gray;
+}
+#nav li a {
+    color: #FFFFFB;
+    text-decoration: none;
+}
+#nav {
+    width: 200px;
+    position: fixed;
+    margin-top: 200px;
+}
+
+
+#content {
+    width: 600px;
+    float: left;
+    margin-top: 215px;
+    margin-left: 200px;
+}
+#content .container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.item {
+    margin-top: -200px;
+    padding-top: 200px;
+}
+h2 {
+    color: 	#BC8F8F;
+    font-weight: bold;
+}
+#supporting {
+    width: 200px;
+    background-color:#B19693;
+    margin-top: 215px;
+    margin-left: 800px;
+    position: fixed;
+    box-shadow: 1px 1px 2px gray;
+    float: left;
+    font-size: 110%;
+}
+div#supporting p {
+    text-align: left;
+}
+#supporting .container {
+    padding: 0 10px;
+}
+#supporting p {
+    color: white;
+}
+*#footer {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    vertical-align: middle;
+    margin-top: 5px;
+    align: center;
+    height: 30px;
+    background-image: url("https://tshop.r10s.com/0d7/307/f24d/c185/80d8/02a6/fd36/11f7e782fd2c600ce3781e.jpg");
+    clear: both;
+    text-align: center;
+    font-size: small;
+    color: white;
+    box-shadow: 1px 1px 2px gray;
+}
+
